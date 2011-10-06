@@ -1,7 +1,7 @@
-2ac38b7abd478c8127e97cbcb213e283 *DESCRIPTION
+ee4de90a3c89616fd96625646b6c4239 *DESCRIPTION
 23f5fd16dc2dc44f7910ac583cc510c6 *NAMESPACE
-0bb46f52766f14d994b85f051cc455bb *R/apply.R
-012d21d4b93f0851d924bc53007f96b1 *R/array2df.R
+b4b35c4aaae1ec4f0c1fdc0b669f52ca *R/apply.R
+2bae7e62104db3c8d7a642d49ffdaef5 *R/array2df.R
 5a6d7db2f4c6f42b5515e7a8a6672085 *R/array2vec.R
 544b0f87201b7b36cba653f61d0fe401 *R/arrayhelpers.R
 075cd2495729ed1f009aa8db93a5270e *R/colSums.R
@@ -9,8 +9,8 @@
 f93ecd63b0d3b4663036c23a4ab87d2d *R/delold.R
 0a9e1c45e236a99751e80de55ddfa4c4 *R/dropdimnames.R
 ad62c706c4d733831a33794f7898f9a6 *R/ensuredim.R
-089137226a8a9eb2f2abb274c858b191 *R/groupsum.R
-c56c5bc89773c1f134c82ac61ce66ca3 *R/init.R
+d8b01e38ca4356c8f4a92c5dbe2e455f *R/groupsum.R
+17dfbafbd8f3151d4f60bd82958d9101 *R/init.R
 469fbcc4c7934a828fc330e43b0f3007 *R/makeNd.R
 e4be29f99a720dd98c1d896d785b4466 *R/ndim.R
 a89a185939c76c9a379bee34e20a23d2 *R/numericindices.R
@@ -29,7 +29,7 @@ dae8cafcd04335875cca15a6f631cfdd *man/countrows.Rd
 85de39ab64f01b1c6014b4610031ab02 *man/delold.Rd
 207299440ae2edca090f15d2727c7616 *man/dropdimnames.Rd
 57048002ad4512139777f6f0ae9514f3 *man/ensuredim.Rd
-9ba7ed35855669833b3c980193ba53b7 *man/groupsum.Rd
+be80f85820524766865a64e519b3f799 *man/groupsum.Rd
 5705e8d99345ea7c973738c8e8315ed8 *man/makeNd.Rd
 82245095b780cbe1c3d71e238e3c0648 *man/ndim.Rd
 a9d062cca7de77059e287d0c185addb0 *man/numericindex.Rd
