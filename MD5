@@ -1,10 +1,10 @@
-1e45906125dd0a609a38f9d47d00cde4 *DESCRIPTION
+ed5be1ab7b2ea6953cd8ad057780164b *DESCRIPTION
 08991a271b934f20b4f326fae3c293e7 *NAMESPACE
 f51cd284aae4319d5f0bc40b10fbd225 *R/apply.R
 63e6dd7efde48eabc8b78faa61aecc55 *R/array2df.R
 9eae7d92362e49679657a049f2d125af *R/array2vec.R
 e339d061c2a76d7462d5fa4ee2444c9f *R/arrayhelpers.R
-30eeb95579693d3dae13c4365f18d896 *R/colSums.R
+f4c56e0865334709f4c274be396765d8 *R/colSums.R
 95aeb4fdaee0d5120c4e38e358cbd213 *R/countrows.R
 f93ecd63b0d3b4663036c23a4ab87d2d *R/delold.R
 0a9e1c45e236a99751e80de55ddfa4c4 *R/dropdimnames.R
