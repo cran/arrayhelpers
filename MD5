@@ -1,9 +1,9 @@
-ed5be1ab7b2ea6953cd8ad057780164b *DESCRIPTION
+fab5c5b5fc67bf216fe0c4123306d877 *DESCRIPTION
 08991a271b934f20b4f326fae3c293e7 *NAMESPACE
 f51cd284aae4319d5f0bc40b10fbd225 *R/apply.R
 63e6dd7efde48eabc8b78faa61aecc55 *R/array2df.R
 9eae7d92362e49679657a049f2d125af *R/array2vec.R
-e339d061c2a76d7462d5fa4ee2444c9f *R/arrayhelpers.R
+44b297257fab67491baff68363b9ed19 *R/arrayhelpers.R
 f4c56e0865334709f4c274be396765d8 *R/colSums.R
 95aeb4fdaee0d5120c4e38e358cbd213 *R/countrows.R
 f93ecd63b0d3b4663036c23a4ab87d2d *R/delold.R
@@ -16,10 +16,10 @@ f61ebca18e05a11a930b5c02147dd50f *R/ndim.R
 a89a185939c76c9a379bee34e20a23d2 *R/numericindices.R
 7e761e39e3f236062cc856007d73f225 *R/restoredim.R
 3cd32ec55b56781ac018290f55c45cff *R/rowsum.R
-84d7bf881fe67ef66e246041a18b07f0 *R/slice.R
+4ede4d64e981aa53182614b74d63a95f *R/slice.R
 d3f0b3fea61798033569d828accb6650 *R/stack.R
 73beb015d502d964fd6a4ce16e4c401a *R/ta.R
-fde410b703c74d1cd5321586b17d64c1 *R/validate.R
+4e4281ac8281df72cb6eb41d54a9fe49 *R/validate.R
 510465d8c09e962025d8821a4c41f9c0 *man/array2df.Rd
 180a872924e7d83b27409af961e1e7ee *man/array2vec.Rd
 b5f577bb4e2fab802fec17bee417cc0c *man/arrayhelpers-package.Rd
@@ -34,7 +34,8 @@ ab1a1e901a57e20fbd68ff4667cd4c46 *man/delold.Rd
 6f0634dfbd5197a3a365ff7340c3baba *man/ndim.Rd
 bd8c08c84688f0398fae81ca25a2fce1 *man/numericindex.Rd
 edff40ab24a920dddf009eced3d9d1f8 *man/rowsum.Rd
-67e2c6367b651832b7c310b2a7a74bba *man/slice.Rd
+ec2746802e95be02a1c0a04e3c987dc7 *man/slice.Rd
 30e23a7684279c63d729820435373b45 *man/stack.Rd
 ec693e40a04693c0e8e917ba8f3b35d5 *man/ta.Rd
-a6d96fa03b1170c82ae8dffe0daed9db *tests/tests.R
+d71f95327aa4fe25ab062a52bf6aa987 *tests/tests.R
+2184abda839ab6ecaaa9e471f7f22071 *tests/tests.Rout
