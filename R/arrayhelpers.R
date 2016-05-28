@@ -1,37 +1,27 @@
 ##' Little helper functions to work with arrays
 ##' @name arrayhelpers-package
+##' @title Package arrayhelpers
 ##' @docType package
+##' @author C. Beleites
 ##' 
+##' Maintainer: Claudia Beleites <claudia.beleites@@chemometrix.eu>
+##' @include unittestdata.R
+##' @import svUnit
+##' @import methods
+##' @keywords package
 {
-
-  if (require ("svUnit", quietly = TRUE)){
-    `.test<-` <- svUnit::`test<-`
-  } else {
-    `.test<-` <- function (f, value) {
+  if (!requireNamespace ("svUnit", quietly = TRUE)){
+   `.test<-` <- function (f, value) {
       class (value) <-  c ("svTest", "function")
       attr (f, "test") <- value
       f
     }
+  } else {
+    `.test<-` <- svUnit::`test<-`
   }
+}
 
     
-### test data
-    ## vector
-    v <- 1 : 3
-    names (v) <- letters [1 : 3]
-
-    ## matrix
-    m <- matrix (1:6, 2,
-                 dimnames = list (rows = letters [1:2],
-                   columns = LETTERS [1:3])) 
-
-    ## array
-    a <- array (1 : 24, 4 : 2,
-                dimnames = list (rows = letters [1:4],
-                  columns = LETTERS [1:3],
-                  d3 = 1:2)
-                )
-}
 
 
 
