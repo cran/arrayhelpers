@@ -25,6 +25,4 @@ inverse: it converts 1d arrays into vectors.
 }
 \author{
 Claudia Beleites
-
-Claudia Beleites
 }

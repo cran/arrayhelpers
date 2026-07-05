@@ -95,6 +95,4 @@ attr (x, "old")
 }
 \author{
 Claudia Beleites
-
-Claudia Beleites
 }

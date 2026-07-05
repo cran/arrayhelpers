@@ -54,7 +54,7 @@
     dn.ans <- dn [ MARGIN]
 
     ## do the calls
-browser()
+
     d2 <- prod(d.ans)
     if(d2 == 0L) {
         ## arrays with some 0 extents: return ``empty result'' trying
