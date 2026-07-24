@@ -53,11 +53,11 @@ groupsum <- function(x, group = NULL, dim = 1L, reorder=TRUE, na.rm = FALSE, ...
   groups <- c(2, 1, 2)
   checkEquals (groupsum (a, group = groups, dim = 2),
                structure(c(5 : 8, (5 : 8) * 2L, 17 : 20, (17 : 20) * 2L), 
-                           .Dim = c(4L, 2L, 2L),
-                           .Dimnames = structure(list(rows = letters [1:4],
+                           dim = c(4L, 2L, 2L),
+                           dimnames = structure(list(rows = letters [1:4],
                              columns = c("1", "2"),
                              d3 = c("1", "2")),
-                             .Names = c("rows", "columns", "d3"))))
+                             names = c("rows", "columns", "d3"))))
 
   b <- a
   dim (b) <- c (2, 2, 3, 2)

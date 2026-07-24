@@ -132,7 +132,7 @@ array2df <- function (x, levels, matrix = FALSE,
                                 d2 = rep (rep (1:3, each = 4), 2),
                                 d3 = rep (1:2, each = 12),
                                 d4 = rep (1, 24)),
-                                .Names = c("x", "d1", "d2", "d3", "d4"),
+                                names = c("x", "d1", "d2", "d3", "d4"),
                                 row.names = c(NA, -24L),
                                 class = "data.frame")
                )               
@@ -143,27 +143,27 @@ array2df <- function (x, levels, matrix = FALSE,
                              rep (rep (1:3, each = 4), 2),
                              rep (1:2, each = 12),
                              rep (1, 24)),
-                          .Dim = c(24L, 5L),
-                          .Dimnames = list(NULL, c("x", "d1", "d2", "d3", "d4")))
+                          dim = c(24L, 5L),
+                          dimnames = list(NULL, c("x", "d1", "d2", "d3", "d4")))
                )               
                
   checkEquals (array2df (a), structure(list(a = 1:24, rows = structure(c(1L, 2L, 3L, 4L, 1L, 
     2L, 3L, 4L, 1L, 2L, 3L, 4L, 1L, 2L, 3L, 4L, 1L, 2L, 3L, 4L, 1L, 
-    2L, 3L, 4L), .Label = c("a", "b", "c", "d"), class = "factor"), 
+    2L, 3L, 4L), levels = c("a", "b", "c", "d"), class = "factor"), 
     columns = structure(c(1L, 1L, 1L, 1L, 2L, 2L, 2L, 2L, 3L, 
     3L, 3L, 3L, 1L, 1L, 1L, 1L, 2L, 2L, 2L, 2L, 3L, 3L, 3L, 3L
-    ), .Label = c("A", "B", "C"), class = "factor"), d3 = structure(c(1L, 
+    ), levels = c("A", "B", "C"), class = "factor"), d3 = structure(c(1L, 
     1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 2L, 2L, 2L, 2L, 
-    2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L), .Label = c("1", "2"), class = "factor")), .Names = c("a", 
+    2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L), levels = c("1", "2"), class = "factor")), names = c("a", 
     "rows", "columns", "d3"), row.names = c(NA, -24L), class = "data.frame"))
 
   checkTrue (is.matrix (array2df (a, matrix = TRUE)))
 
   checkEquals (array2df (a, list (TRUE, NULL, NA)),
                structure(list(a = 1:24, rows = structure(c(1L, 2L, 3L, 4L, 1L, 2L, 3L, 4L, 1L, 2L,
-               3L, 4L, 1L, 2L, 3L, 4L, 1L, 2L, 3L, 4L, 1L, 2L, 3L, 4L), .Label = c("a", "b", "c",
+               3L, 4L, 1L, 2L, 3L, 4L, 1L, 2L, 3L, 4L, 1L, 2L, 3L, 4L), levels = c("a", "b", "c",
                "d"), class = "factor"), d3 = c(1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 2L,
-               2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L)), .Names = c("a", "rows", "d3"), row.names
+               2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L)), names = c("a", "rows", "d3"), row.names
                = c(NA, -24L), class = "data.frame")
                )  
 }

@@ -6,8 +6,8 @@ Maintainer: Claudia Beleites <Claudia.Beleites@chemometrix.eu>
 Authors@R: c(
     person("Claudia",   "Beleites",  role = c("aut","cre"), email = "Claudia.Beleites@chemometrix.eu")
     )
-Version: 1.1-1
-Date: 2026-07-05
+Version: 1.1-2
+Date: 2026-07-24
 License: GPL
 LazyLoad: yes
 Imports: methods, utils, svUnit
@@ -20,10 +20,8 @@ Collate: 'unittestdata.R' 'arrayhelpers.R' 'apply.R' 'array2df.R'
         'restoredim.R' 'rowsum.R' 'slice.R' 'stack.R' 'ta.R'
         'unittests.R'
 Config/roxygen2/version: 8.0.0
-Suggests: testthat (>= 3.0.0)
-Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2026-07-05 12:34:10 UTC; cb
+Packaged: 2026-07-24 14:41:13 UTC; cb
 Author: Claudia Beleites [aut, cre]
 Repository: CRAN
-Date/Publication: 2026-07-05 14:30:14 UTC
+Date/Publication: 2026-07-24 18:50:02 UTC

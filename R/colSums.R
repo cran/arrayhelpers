@@ -13,7 +13,7 @@
     dn <- dimnames (x)
     dn [1L : dims] <- list (NULL)
     
-    z <- structure (z, .Dim =  d, .Dimnames = lon (dn))
+    z <- structure (z, dim =  d, dimnames = lon (dn))
   }
   
   z
@@ -62,7 +62,7 @@
     dn <- dimnames (x)
     dn [1L : dims] <- list (NULL)
     
-    z <- structure (z, .Dim =  d, .Dimnames = lon (dn))
+    z <- structure (z, dim =  d, dimnames = lon (dn))
   }
   
   z
@@ -85,7 +85,7 @@
     dn <- dimnames (x)
     dn [(dims + 1L) : length (dn)] <- list (NULL)
     
-    z <- structure (z, .Dim =  d, .Dimnames = lon (dn))
+    z <- structure (z, dim =  d, dimnames = lon (dn))
   }
       
   z
@@ -108,7 +108,7 @@
     dn <- dimnames (x)
     dn [(dims + 1L) : length (dn)] <- list (NULL)
     
-    z <- structure (z, .Dim =  d, .Dimnames = lon (dn))
+    z <- structure (z, dim =  d, dimnames = lon (dn))
   }
       
   z

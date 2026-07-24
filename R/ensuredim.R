@@ -8,15 +8,15 @@
 ##' @export 
 ensuredim <- function (x){
   if (is.null (dim (x)))
-    x <- structure (x, .Dim = length (x),
-                    .Dimnames =  lon (list (names (x))),
-                    .Names = NULL)
+    x <- structure (x, dim = length (x),
+                    dimnames =  lon (list (names (x))),
+                    names = NULL)
   x
 }
 
 .test (ensuredim) <- function (){
-  checkEquals (ensuredim (v), structure(1:3, .Dim = 3L, .Dimnames = list(c("a", "b", "c"))))
-  checkEquals (ensuredim (as.numeric (v)), structure(1:3, .Dim = 3L))
+  checkEquals (ensuredim (v), structure(1:3, dim = 3L, dimnames = list(c("a", "b", "c"))))
+  checkEquals (ensuredim (as.numeric (v)), structure(1:3, dim = 3L))
   checkEquals (ensuredim (m), m)
   checkEquals (ensuredim (a), a)
 }
@@ -28,7 +28,7 @@ ensuredim <- function (x){
 ##' @export 
 drop1d <- function (x, drop = TRUE){
   if (drop && ndim (x) == 1)
-    x <- structure (x, .Dim = NULL, .Dimnames = NULL, .Names = dimnames (x)[[1]])
+    x <- structure (x, dim = NULL, dimnames = NULL, names = dimnames (x)[[1]])
 
   x
 }
